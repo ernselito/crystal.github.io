@@ -22,6 +22,22 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <link href="assets/css/main.css" rel="stylesheet">
+  
+  <style>
+    /* Optional: Add some spacing for the text-only layout */
+    .portfolio-details-content {
+      padding: 30px;
+      background: #fff;
+      box-shadow: 0px 0 30px rgba(0,0,0,0.05);
+      border-radius: 10px;
+    }
+    /* Ensure the badges look good in the new position */
+    .tech-stack-badges {
+      margin-top: 15px;
+      margin-bottom: 25px;
+    }
+  </style>
+
 </head>
 
 <body class="portfolio-details-page">
@@ -56,82 +72,15 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>Case Study Details</h2>
         <p>Foundational & Evaluative Research for the Republic Bank Mobile App Launch.</p>
-      </div><div class="container" data-aos="fade-up" data-aos-delay="100">
+      </div>
 
-        <div class="row gy-4">
-          <div class="col-lg-6" data-aos="fade-right">
-            <div class="portfolio-details-media">
-              <div class="main-image">
-                <div class="portfolio-details-slider swiper init-swiper" data-aos="zoom-in">
-                  <script type="application/json" class="swiper-config">
-                    {
-                      "loop": true,
-                      "speed": 1000,
-                      "autoplay": {
-                        "delay": 6000
-                      },
-                      "effect": "creative",
-                      "creativeEffect": {
-                        "prev": {
-                          "shadow": true,
-                          "translate": [0, 0, -400]
-                        },
-                        "next": {
-                          "translate": ["100%", 0, 0]
-                        }
-                      },
-                      "slidesPerView": 1,
-                      "navigation": {
-                        "nextEl": ".swiper-button-next",
-                        "prevEl": ".swiper-button-prev"
-                      }
-                    }
-                  </script>
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-5.webp" alt="App Prototype" class="img-fluid">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-7.webp" alt="User Testing Session" class="img-fluid">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-8.webp" alt="Data Analysis" class="img-fluid">
-                    </div>
-                  </div>
-                  <div class="swiper-button-prev"></div>
-                  <div class="swiper-button-next"></div>
-                </div>
-              </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-              <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
-                <div class="row g-2 mt-3">
-                  <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-4.webp" alt="Gallery Image" class="img-fluid glightbox">
-                  </div>
-                  <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-6.webp" alt="Gallery Image" class="img-fluid glightbox">
-                  </div>
-                  <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-11.webp" alt="Gallery Image" class="img-fluid glightbox">
-                  </div>
-                  <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-12.webp" alt="Gallery Image" class="img-fluid glightbox">
-                  </div>
-                </div>
-              </div>
+        <div class="row gy-4 justify-content-center">
 
-              <div class="tech-stack-badges" data-aos="fade-up" data-aos-delay="300">
-                <span>User Interviews</span>
-                <span>Surveys</span>
-                <span>Usability Testing</span>
-                <span>Prototype Testing</span>
-                <span>Thematic Analysis</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-left">
+          <div class="col-lg-10 mx-auto" data-aos="fade-up">
             <div class="portfolio-details-content">
+              
               <div class="project-meta">
                 <div class="badge-wrapper">
                   <span class="project-badge">UX Research</span>
@@ -146,6 +95,14 @@
                     <span>Republic Bank</span>
                   </div>
                 </div>
+              </div>
+
+              <div class="tech-stack-badges">
+                <span>User Interviews</span>
+                <span>Surveys</span>
+                <span>Usability Testing</span>
+                <span>Prototype Testing</span>
+                <span>Thematic Analysis</span>
               </div>
 
               <h2 class="project-title">Republic Bank Mobile App</h2>
@@ -222,7 +179,8 @@
               </div>
 
               <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
-                <a href="portfolio.html" class="btn-next-project">Back to Portfolio <i class="bi bi-arrow-right"></i></a>
+                <a href="portfolio.html" class="btn-view-project">Back to Portfolio</a>
+                <a href="project-vanguard.html" class="btn-next-project">Next Case Study <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -230,7 +188,9 @@
 
       </div>
 
-    </section></main>
+    </section>
+
+  </main>
 
   <footer id="footer" class="footer">
     <div class="container">
@@ -251,11 +211,4 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <script src="assets/js/main.js"></script>
-
-</body>
-</html>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.
